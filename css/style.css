@@ -16,7 +16,7 @@ body{
     grid-gap: 20px;
 }
 
-
+/* inicio de estilos de header */
 
 .encabezado{
     background-color: #131313;
@@ -53,16 +53,11 @@ body{
     font-size: 23px;
 }
 
+/* fin de estilos de header */
 
+/* inicio de estilos de main */
 
-
-
-
-
-
-
-
-
+/* inicio de estilos de seccion (anuncios) */
 
 .contenido-flyers{
     background-image: url(../assets/Imagenes/backgroundcaffe.jpg);
@@ -83,9 +78,9 @@ body{
     padding-top: 5%;
 }
 
+/* fin de estilos de seccion (anuncios) */
 
-
-
+/* inicio de estilos de seccion (novedades) */
 
 .Titulo__novedades{
     text-align: center;
@@ -163,10 +158,9 @@ body{
     color: #489695;
 }
 
+/* fin de estilos de seccion (novedades) */
 
-
-
-
+/* inicio de estilos de seccion (comentario de clientes) */
 
 .comentarios-clientes{
     background-color:#131313;
@@ -214,34 +208,9 @@ body{
     font: 20px;
 }
 
+/* fin de estilos de seccion (comentario de clientes) */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* inicio de estilos de seccion (pasos para la compra) */
 
 .pasos-para-compra{
     background-color: #489695;
@@ -292,6 +261,9 @@ body{
     align-items: center;
 }
 
+/* fin de estilos de seccion (pasos para la compra) */
+
+/* inicio de estilos de seccion (razones para la compra) */
 
 .contenedor__pasos-para-compra h3{
     color: #ffffff;
@@ -311,10 +283,6 @@ body{
     font-size: 1em;
     padding: 0px 50px 0px 50px;
 }
-
-
-
-
 
 
 
@@ -387,6 +355,10 @@ body{
 }
 
 
+/* fin de estilos de seccion (razones para la compra) */
+
+/* inicio de estilos de seccion (subscripcion) */
+
 .subscripcion{
     background-color: #489695;
     width: 100%;
@@ -422,6 +394,13 @@ body{
     border-radius: 10px;
 }
 
+
+/* fin de estilos de seccion (subscripcion) */
+
+/* fin de estilos de main */
+
+/* inicio de estilos footer */
+
 .contenedor-footer{
     background-color: #131313;
     color: #fff;
@@ -438,14 +417,9 @@ body{
     height: 165px;
 }
 
+/* fin de estilos footer */
 
-
-
-
-
-
-
-
+/*  inicio de estilos pagina accesorios */
 
 #grilla-pages__accesorios{
     display: grid;
@@ -555,25 +529,7 @@ body{
     grid-area: footer;
 }
 
-
-
-
-@media only screen and ( max-width: 1280px ) {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* fin de estilos de pagina de accesorios */
 
 @media only screen and ( max-width: 820px )
 
@@ -706,10 +662,9 @@ body{
         margin-left: 20px;
     }
 
-
-
-
 }
+
+
 
 @media only screen and ( max-width: 390px) {
 
