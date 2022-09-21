@@ -1,11 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     height: auto;
     width: auto;
 }
+
  #header{
     height: 25vh;
  }
- 
+
 #header button{
     margin: 20px;
 }
@@ -20,3 +27,95 @@ body{
     padding: 40px;
 }
 
+#background-mensaje1{
+    height: 75vh;
+}
+
+#background-mensaje1 p{
+font-size: 3rem;
+position: absolute;
+top: 30%;
+left: 30%;
+right: 30%;
+color: #2a2a2a;
+border: 100px;
+}
+
+#background-mensaje2{
+    height: 75vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url(/assets/Imagenes/BACKGROUNDANUNCIO2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#background-mensaje2 img{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    width: 55%;
+    height: 75%;
+    border-radius: 25px;
+}
+
+#background-mensaje2 h2{
+    font-size: 2em;
+    position: absolute;
+    left: 61%;
+    top: 25%
+}
+
+#background-mensaje2 p{
+font-size: 3em;
+position: absolute;
+top: 35%;
+left: 55%;
+right: 15%;
+color: #2a2a2a;
+border: 100px;
+}
+
+#background-mensaje3{
+    height: 75vh;
+    overflow: hidden;
+    position: relative;
+    background: -webkit-linear-gradient(left,#fad7b7,#fff);  
+}
+
+#background-mensaje3 p{
+    background-color: rgba(250,215,183,0.7);
+    padding: 2%;
+    font-size: 1.2em;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    right: 30%;
+    color:#2a2a2a;
+    border: 100px;
+    }
+    
+    #imagendegranos{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+#imagenslide{
+    position: absolute;
+    top: 15%;
+    right: 70%;
+    width: 55%;
+    height: 75%;
+    border-radius: 25px;
+}
+
+#background-mensaje3 h2{
+    font-size: 2em;
+    position: absolute;
+    left: 45%;
+    top: 16%
+}

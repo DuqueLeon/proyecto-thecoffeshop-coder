@@ -20,7 +20,7 @@
 
                 <nav class="navbar navbar-expand-lg bg-dark row">
                     <div class="container-fluid">                      
-                        <div class="collapse navbar-collapse col-4 justify-content-center" id="navbarNav">
+                        <div class="collapse navbar-collapse col-4 justify-content-center h6" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link text-info active" aria-current="page" href="pages/accesorios.html">Accesorios</a>
@@ -35,7 +35,7 @@
 
 
 
-                        <div class="collapse navbar-collapse col-4 justify-content-center" id="navbarNav">
+                        <div class="collapse navbar-collapse col-4 justify-content-center h6" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link text-info" href="pages/cafeteras.html">Cafeteras</a>
@@ -59,11 +59,61 @@
 
             <!--  inicio de seccion (anuncios) -->
 
-            <div class="row text-center">
+            <div id="seccion-anuncios" class="row text-center">
 
-                <section class="contenido-flyers__anuncios">                
-                    <h2>SOMOS <span style="color: #489695;">COFFEE HOUSE.</span> CUIDAMOS CADA GRANO DE CAFÉ, DESDE SU ORIGEN HASTA TU TAZA</h2>
-                </section>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+
+
+                      <div class="carousel-item active" id="background-mensaje1">
+                          <section>                
+                            <img src="assets/Imagenes/backgroundcaffee2.jpg" class="d-block w-100" alt="background mensaje">
+                            <p>SOMOS <span style="color: #489695;">COFFEE HOUSE.</span> CUIDAMOS CADA GRANO DE CAFÉ, DESDE SU ORIGEN HASTA TU TAZA</p>
+                        </section>
+                      </div>
+
+
+
+
+                      
+                         <div class="carousel-item" id="background-mensaje2">
+                            <section>                
+                            <img src="assets/Imagenes/buenosgustosbuendia.jpg" class="d-block" alt="background mensaje">
+                            <h2>THE COFFE SHOP</h2>
+                            <p>BUENOS <span  style="color: #489695;">GUSTOS </span>PARA UN <span style="color: #489695;">BUEN DIA.</span></p>
+                            </section>
+                        </div>
+
+
+
+                        <div class="carousel-item" id="background-mensaje3">
+                            <section>                
+                             <img id="imagenslide" src="assets/Imagenes/buenosgustosbuendia.jpg" alt="artelatte"> <img id="imagendegranos" src="/assets/Imagenes/mejor-cafe-en-grano-calidad-precio-9.webp" alt="granos de cafe">
+                             <h2>Granos de Cafe Selectos</h2>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi cum natus in totam saepe laboriosam officia error sit, sequi exercitationem explicabo fugiat voluptate! Nostrum fuga dicta illum rem sit pariatur!</p>
+                            
+                            </section>
+                        </div>
+                        
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
                 
 
                 
