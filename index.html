@@ -5,59 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>PAGINA 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>the coffe shop</title>
 </head>
 <body>
 
 
-    <div class="grilla">
+    <div>
 
-        <header>
+        <header class="container-fluid">
             
-            <div class="encabezado">
+            <div class="text-center" id="header">
 
 
-                <div class="encabezado__contenedor-nav">
+                <nav class="navbar navbar-expand-lg bg-dark row">
+                    <div class="container-fluid">                      
+                        <div class="collapse navbar-collapse col-4 justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-info active" aria-current="page" href="pages/accesorios.html">Accesorios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-info" href="pages/cafe-de-especialidad.html">Cafe de Especialidad</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                    <div>
-                        <a href="pages/cafeteras.html">CAFETERAS</a>
+                        <a class="navbar-brand col-4" href="index.html"><img src="assets/Imagenes/logo2.png" alt="pagina de inicio"></a>
+
+
+
+                        <div class="collapse navbar-collapse col-4 justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-info" href="pages/cafeteras.html">Cafeteras</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-info" href="pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
                     </div>
-
-                    <div>
-                        <a href="pages/accesorios.html">ACCESORIOS</a>
-                    </div>
-
-                </div>
-
-
-                <div class="encabezado__contenedor__logo">
-                    <a href="index.html"><img src="assets/Imagenes/logo2.png" alt="pagina de inicio"></a>
-                </div>
-
-
-                <div class="encabezado__contenedor-nav">
-
-                    <div>
-                        <a href="pages/cafe-de-especialidad.html">CAFE DE ESPECIALIDAD</a>
-                    </div>
-
-                    <div>
-                        <a href="pages/contacto.html">CONTACTO</a>
-                    </div>            
-                    
-
-                </div>
-
+                </nav>
 
             </div>      
 
         </header>
 
-        <main>
+        <main class="container-fluid">
 
             <!--  inicio de seccion (anuncios) -->
 
-            <div class="contenido-flyers">
+            <div class="row text-center">
 
                 <section class="contenido-flyers__anuncios">                
                     <h2>SOMOS <span style="color: #489695;">COFFEE HOUSE.</span> CUIDAMOS CADA GRANO DE CAFÉ, DESDE SU ORIGEN HASTA TU TAZA</h2>
@@ -71,14 +73,14 @@
 
             <!--  inicio de seccion (novedades) -->
 
-            <div>           
-                <h2 class="Titulo__novedades">¡NOVEDADES!</h2>
-                <div class="seccion-novedades">
+            <div class="row text-center">           
+                <h2 class="">¡NOVEDADES!</h2>
+                <div class="row text-center">
 
                     
-                        <div class="carta-de-producto">
+                        <div class="">
                             <figure class="img-producto">                        
-                                <img src="assets/Imagenes/bolsadecafe.png" alt="cafe tipo italiano">
+                                <img src="#" alt="cafe tipo italiano">
                             </figure>
                             <div class="info-producto">
                                 <h3 class="titulo-producto">CAFE TIPO ITALIANO</h3>
@@ -92,9 +94,9 @@
                     
                         
                     
-                        <div class="carta-de-producto">
+                        <div class="">
                             <figure class="img-producto">                        
-                                <img src="assets/Imagenes/bolsadecafe.png" alt="cafe tipo colombiano">
+                                <img src="#" alt="cafe tipo colombiano">
                             </figure>
                             <div class="info-producto">
                                 <h3 class="titulo-producto">CAFE TIPO COLOMBIANO</h3>
@@ -108,9 +110,9 @@
                     
                         
                     
-                        <div class="carta-de-producto">
+                        <div class="">
                         <figure class="img-producto">                        
-                            <img src="assets/Imagenes/bolsadecafe.png" alt="cafe tipo brasil">
+                            <img src="#" alt="cafe tipo brasil">
                         </figure>
                         <div class="info-producto">
                             <h3 class="titulo-producto">CAFE TIPO BRASIL</h3>
@@ -131,13 +133,13 @@
 
             <!--  inicio de seccion (comentarios) -->
 
-            <div class="comentarios-clientes">
+            <div class="row text-center">
                 
                 <div>                
                     <h2>LO QUE NUESTROS CLIENTES DICEN</h2>
                 </div>
-                <div class="contenedor__comentarios-clientes">                
-                    <div class="cometario-clientes__texto">
+                <div class="">                
+                    <div class="">
                         <div>
                             <h3>COMENTARIO</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nam dolore ratione veniam quaerat quo libero cupiditate accusamus, quis dicta, impedit fuga saepe dignissimos eum nemo rem repellendus modi mollitia.</p>
@@ -151,17 +153,17 @@
 
             <!--  inicio de seccion (pasos para la compra) -->
 
-            <div class="pasos-para-compra">
+            <div class="row text-center">
                 
                 <div>                
                     <h2>PASOS PARA LA COMPRA</h2>
                 </div>
 
                 
-                <div class="contenedor__pasos-para-compra">                
+                <div class="">                
                     
                     
-                    <div class="paso1">
+                    <div class="">
                         <div>
                             <img src="/assets/Imagenes/pasosparacompra1.webp" alt="">
                             <h3>ELEGÍ TU CAFÉ</h3>
@@ -172,7 +174,7 @@
 
 
                         
-                    <div class="paso2">
+                    <div class="">
                         <div>
                             <img src="/assets/Imagenes/pasosparacompra2.webp" alt="">
                             <h3>PAGÁ EN FORMA SEGURA</h3>
@@ -184,7 +186,7 @@
 
                     
                         
-                    <div class="paso3">
+                    <div class="">
                         <div>
                             <img src="/assets/Imagenes/pasosparacompra3.webp" alt="">
                             <h3>DESPACHO EN 24 HS</h3>
@@ -202,7 +204,7 @@
 
             <!--  inicio de seccion (razones para la compra) -->
 
-            <div class="porque-comprarnos">
+            <div class="row text-center">
                 
                 <div>                
                     <h2>PORQUE ES MAS RICO</h2>
@@ -247,7 +249,7 @@
 
             <!--  inicio de seccion (subscripcion) -->
 
-            <div class="subscripcion">
+            <div class="row text-center">
                 <div>
                     <h2>¡Suscribite a nuestro Newsletter!</h2>
                     <p>Conoce historias, tips y descuentos especiales en Café de Especialidad</p>
@@ -267,11 +269,11 @@
         </main>
 
         <footer>
-            <div class="contenedor-footer">
+            <div class="">
                 <div>
 
                 </div>
-                <a href="index.html"><img src="assets/Imagenes/logo2.png" alt="pagina de inicio"></a>
+                <a href="index.html"><img src="#" alt="pagina de inicio"></a>
                 <div>
 
                 </div>
@@ -287,6 +289,10 @@
         </footer>
         
     </div>
-        
+       
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 </html>
