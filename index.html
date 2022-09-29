@@ -5,368 +5,238 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>the coffe shop</title>
+    <!-- google fonts -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>tienda de cafe</title>
 </head>
+
+
+
 <body>
 
-
-    <div>
-
-        <header>
-
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                  <a class="navbar-brand" href="index.html"><img src="assets/Imagenes/logo2.png" alt="pagina de inicio"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido-navbar" aria-controls="contenido-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                    <div class="collapse navbar-collapse" id="contenido-navbar">
-
-                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" href="index.html">inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="pages/cafeteras.html">cafeteras</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="pages/accesorios.html">accesorios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="pages/cafe-de-especialidad.html">cafe de especialidad</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="pages/contacto.html">contacto</a>
-                            </li>
-                        </ul>
-
-                    </div>
+    <div class="header">
+        <div class="container">   
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/Imagenes/logo2.png" width="120px" alt="logotipo"></a>
                 </div>
-            </nav>
-
-        </header>
-
-        <main>
-
-             <!--  inicio de seccion (anuncios) -->
-
-            <div id="seccion-anuncios" class="text-center">
-
-
-                <div id="carousel-de-anuncios" class="carousel slide" data-bs-ride="true">
-                    
-                    <div class="carousel-indicators">
-
-                        <button type="button" data-bs-target="#carousel-de-anuncios" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: black;">
-                        </button>
-
-                        <button type="button" data-bs-target="#carousel-de-anuncios" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: black;">
-                        </button>
-
-                        <button type="button" data-bs-target="#carousel-de-anuncios" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: black;">
-                        </button>
-
-                    </div>
-
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active" id="background-mensaje1">
-                          <section>                
-                            <img src="assets/Imagenes/slider1.jpg" class="d-block w-100 h-100 img-fluid" alt="background mensaje">
-                            <p class="">SOMOS <span style="color: #489695;">COFFEE STORE.</span> CUIDAMOS CADA GRANO DE CAFÉ, DESDE SU ORIGEN HASTA TU TAZA</p>
-                        </section>
-                        </div>
-                        
-                        <div class="carousel-item" id="background-mensaje2">
-                            <section>                
-                            <img src="assets/Imagenes/slider3.webp" class="d-block img-fluid" alt="background mensaje">
-                            <h2>THE COFFE SHOP</h2>
-                            <p>BUENOS <span  style="color: #489695;">GUSTOS </span>PARA UN <span style="color: #489695;">BUEN DIA.</span></p>
-                            </section>
-                        </div>
-
-                        <div class="carousel-item" id="background-mensaje3">
-                            <section>                
-                             <img id="imagenslide" src="assets/Imagenes/slider3.webp" alt="artelatte" class="d-block">
-                             <img id="imagendegranos" src="assets/Imagenes/slider2anuncio.webp" alt="granos de cafe" class="d-block">
-                             <h2>Granos de Cafe Selectos</h2>
-                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi cum natus in totam saepe laboriosam officia error sit, sequi exercitationem explicabo fugiat voluptate! Nostrum fuga dicta illum rem sit pariatur!</p>
-                            
-                            </section>
-                        </div>
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-de-anuncios" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next " type="button" data-bs-target="#carousel-de-anuncios" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            
-                </div>
-            
-                <!--  fin de seccion (anuncios) -->
-
-                <!--  inicio de seccion (novedades) -->
-
-                <section class="productos-novedades">
-                    <div class="container py-5 ">
-                        <div class="row py-5">
-                            <div class="col-5 m-auto text-center">
-                                <h2>NOVEDADES</h2>
-                                <h6 style="color:#489695;">TE ENCANTARA</h6>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-3 text-center">
-                                <div class="card border-0 bg-light carta-de-novedades">
-                                    <div class="card-body">
-                                        <img
-                                        src="assets/Imagenes/bolsadecafe.png"
-                                        class="img-fluid img-novedades"
-                                        alt="tipo de cafe">
-                                    </div>
-                                </div>
-                                <h6>CAFE TIPO ITALIANO</h6>
-                                <p>$ 200</p>
-                            </div>
-
-                            <div class="col-3 text-center">
-                                <div class="card border-0 bg-light carta-de-novedades">
-                                    <div class="card-body">
-                                        <img
-                                        src="assets/Imagenes/bolsadecafe.png"
-                                        class="img-fluid img-novedades"
-                                        alt="tipo de cafe">
-                                    </div>
-                                </div>
-                                <h6>CAFE TIPO COLOMBIANO</h6>
-                                <p>$ 200</p>
-                            </div>
-
-                            <div class="col-3 text-center">
-                                <div class="card border-0 bg-light carta-de-novedades">
-                                    <div class="card-body">
-                                        <img 
-                                        src="assets/Imagenes/bolsadecafe.png"
-                                        class="img-fluid img-novedades"
-                                        alt="tipo de cafe">
-                                    </div>
-                                </div>
-                                <h6>CAFE TIPO ESPRESSO</h6>
-                                <p>$ 200</p>
-                            </div>
-
-                            <div class="col-3 text-center">
-                                <div class="card border-0 bg-light carta-de-novedades">
-                                    <div class="card-body">
-                                        <img 
-                                        src="assets/Imagenes/bolsadecafe.png"
-                                        class="img-fluid img-novedades"  
-                                        alt="cafe tipo tipo de cafebrasil">
-                                    </div>
-                                </div>
-                                <h6>CAFE TIPO BRASIL</h6>
-                                <p>$ 200</p>
-                            </div>
-
-                        </div>
-                    </div>                
-                </section>
-
-                <!--  fin de seccion (novedades) -->
-
-                <!--  inicio de seccion (comentarios) -->
-
-                <section class="comentarios">
-                    <div class="container">
-                        <div class="row">
-                            <blockquote class="col-12 text-center p-5">
-                                <h2>Que dicen nuestros clientes</h2>
-                                <p class="text-white p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam quaerat adipisci nostrum voluptatum culpa?</p>
-                                <footer class="blockquote-footer text-white">
-                                    <cite>Pedro Perez</cite>
-                                </footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </section>
-
-                <!--  fin de seccion (comentarios) -->
-
-                <!--  inicio de seccion (pasos para la compra) -->
-
-                <section class="pasos-para-comprar">
-
-                    <div class="container text-center">
-                        <h2 class="titulo-como-comprar mt-4">PASOS PARA LA COMPRA</h2>
-                        <h6 style="color:#489695;">1 2 3... A DISFRUTAR.</h6>
-                        <div class="row">
-
-                            <div class="col-4 text-center">
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <img 
-                                        src="assets/Imagenes/pasosparacompra1.webp"
-                                        class="img-fluid" 
-                                        alt="paso 1">
-                                    </div>
-                                </div>
-                                <h6>paso 1</h6>
-                                <p class="colorparrafo">Seleccioná el café que te guste, elegí si lo querés llevar en grano o molido y si querés comprar una bolsa de 250grs o de 1kg.</p>
-                            </div>
-
-
-                            <div class="col-4 text-center">
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <img 
-                                        src="assets/Imagenes/pasosparacompra2.webp"
-                                        class="img-fluid" 
-                                        alt="paso 2">
-                                    </div>
-                                </div>
-                                <h6>paso 2</h6>
-                                <p class="colorparrafo">Cobramos a través de Mercado Pago, la plataforma más segura del país. Aceptamos todas las tarjetas de crédito y débito.</p>
-                            </div>
-
-
-                            <div class="col-4 text-center">
-                                <div class="card border-0">
-                                    <div class="card-body ">
-                                        <img 
-                                        src="assets/Imagenes/pasosparacompra3.webp"
-                                        class="img-fluid" 
-                                        alt="paso 3">
-                                    </div>
-                                </div>
-                                <h6>paso 3</h6>
-                                <p class="colorparrafo">Llega por Correo a todo el país y tarda entre 2 a 5 días hábiles. Tu número de seguimiento servirá parar rastrearlo.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    
-                </section>           
-
-                <!--  fin de seccion (pasos para la compra) -->
-
-                <!--  inicio de seccion (razones para la compra) -->
-
-                <section class="razones-para-comprar">
-
-                    <div class="container text-center">
-                        <h2 class="titulo-como-comprar mt-5 py-4 text-white">PORQUE ES MAS RICO</h2>
-                        <div class="row">
-
-                            <div class="col-4 text-center">
-                                <div class="card border-0">
-                                    <div class="card-body  bgcard pb-2">
-                                        <img 
-                                        src="assets/Imagenes/razones1.webp"
-                                        class="img-fluid" 
-                                        alt="razon 1">
-                                    </div>
-                                </div>
-                                <h6 class="text-white">NUESTRO CAFÉ SIEMPRE TE LLEGA FRESCO</h6>
-                                <p class="colorparrafo">Todos nuestros cafés se tuestan, envasan y despachan en el día. Llevan fecha de tueste impresa. Consumí tu café dentro de los 60 días.</p>
-                            </div>
-
-
-                            <div class="col-4 text-center">
-                                <div class="card border-0">
-                                    <div class="card-body  bgcard pb-2">
-                                        <img 
-                                        src="assets/Imagenes/razones2.webp"
-                                        class="img-fluid" 
-                                        alt="razon 2">
-                                    </div>
-                                </div>
-                                <h6 class="text-white">PREPARADO CON LOS MEJORES GRANOS</h6>
-                                <p class="colorparrafo">Solo usamos granos arábigos de alta calidad que midan mas de 80 puntos en cata de la Asociación de Café de Especialidad.</p>
-                            </div>
-
-
-                            <div class="col-4 text-center">
-                                <div class="card border-0">
-                                    <div class="card-body  bgcard pb-2">
-                                        <img 
-                                        src="assets/Imagenes/pasosparacompra3.webp"
-                                        class="img-fluid" 
-                                        alt="razon 3">
-                                    </div>
-                                </div>
-                                <h6 class="text-white">TOSTADO MAS SUAVE, SABORES MENOS AMARGOS</h6>
-                                <p class="colorparrafo">La tecnología de tostado más moderna del país (Loring Coffee Roasters), nos permite tostar el interior del grano sin quemar el exterior y producir cafés menos amargos.</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </section>
-
-                <!--  fin de seccion (razones para la compra) -->
-
-                <!--  inicio de seccion (subscripcion) -->
-
-                <section class="subscripcion">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="pt-4">¡Suscribite a nuestro Newsletter!</h2>
-                                <p>Conoce historias, tips y descuentos especiales en Café de Especialidad</p>
-                            </div>
-                            <div class="col-12">
-                                <input type="email" placeholder="Ingresa tu mail" class="mb-3">
-                            </div>
-
-                            <div>
-                                <a href="#" class="p-2">¡Suscribirme!</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>          
-
-                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Cuenta</a></li>
+                    </ul>
+                </nav>
             </div>
 
-            <!--  fin de seccion (razones para la compra) -->
-
-        </main>
-
-        <footer>
-
-            <section class="footer">
-                <div class="container">
-                    <div class="row text-center mt-5">
-                        <div class="col-4">
-                            <a href="index.html"><img src="assets/Imagenes/logo2.png" alt="pagina de inicio"></a>
-                        </div>
-                        <div class="col-4">
-                            <h2>CONTACTO</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
-                        </div>
-                        <div class="col-4">
-                            <h2>REDES SOCIALES</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>SOMOS COFFE STORE</h1>
+                    <p>CUIDAMOS CADA GRANO DE CAFÉ, DESDE SU ORIGEN HASTA TU TAZA</p>
+                    <a href="" class="btn">Comprar Ahora &#8594;</a>
                 </div>
-            </section>
-
-        </footer>
-        
+                <div class="col-2">
+                    <img src="assets/Imagenes/slider2-3.jpg" alt="artelatte">
+                </div>
+            </div>
+        </div>
     </div>
-       
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <!-- ------- seccion detacadas ------- -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="assets/Imagenes/cafeteraespresso.png" alt=""></div>
+                <div class="col-3"><img src="assets/Imagenes/bolsadecaffeparavender.png" alt=""></div>
+                <div class="col-3"><img src="assets/Imagenes/close-up-hands-barista-make-latte-coffee-art-paint.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+
+     <!-- ------- productos detacados ------- -->
+
+
+     <div class="small-container">
+        <h2 class="titulo">Productos Destacados</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/Imagenes/productos/jarabarista.png" alt="jarra de barista">
+                <h4>Jarra de Barista</h4>
+                <p>250$</p>
+            </div>
+
+            <div class="col-4">
+                <img src="assets/Imagenes/productos/balanza.png" alt="balanza">
+                <h4>Balanza</h4>
+                <p>250$</p>
+            </div>
+
+            <div class="col-4">
+                <img src="assets/Imagenes/productos/maquinaespresso.png" alt="maquina de espresso">
+                <h4>Maquina de Espresso</h4>
+                <p>250$</p>
+            </div>
+
+            <div class="col-4">
+                <img src="assets/Imagenes/productos/molinoprofesional.png" alt="molino profesional">
+                <h4>Molino Profesional</h4>
+                <p>250$</p>
+            </div>
+        </div>
+     </div>
+
+
+
+     <!-- ------- testimonios ------- -->
+
+
+
+      <section class="testimonios">
+        <div class="container">
+            <div class="row">
+                <h2>Que dicen nuestros clientes</h2>
+                <blockquote >
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi inventore nostrum labore nesciunt ullam vel praesentium earum placeat consequuntur quae nulla odit sed deleniti quo aliquid in tempore, sunt veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+                    <footer>
+                        <cite>Pedro Perez.</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ------- pasos para comprar ------- -->
+
+    
+    <section class="pasos-para-comprar">
+
+        <div class="container">
+            <div class="titulo">
+                <h2>PASOS PARA LA COMPRA</h2>
+                <h6>1 2 3... A DISFRUTAR.</h6>
+            </div>
+           
+
+            <div class="row">
+
+                <div class="col-5">
+                    <div>
+                        <img 
+                        src="assets/Imagenes/pasosparacompra1.webp" 
+                        alt="paso 1">
+                    </div>
+                    <h5>paso 1</h5>
+                    <p>Seleccioná el café que te guste, elegí si lo querés llevar en grano o molido y si querés comprar una bolsa de 250grs o de 1kg.</p>
+                </div>
+
+
+                <div class="col-5">
+                    <div>
+                        <img 
+                        src="assets/Imagenes/pasosparacompra2.webp"
+                        alt="paso 2">
+                    </div>
+                    <h5>paso 2</h5>
+                    <p>Cobramos a través de Mercado Pago, la plataforma más segura del país. Aceptamos todas las tarjetas de crédito y débito.</p>
+                </div>
+
+
+                <div class="col-5">
+                    <div>
+                        <img 
+                        src="assets/Imagenes/pasosparacompra3.webp" 
+                        alt="paso 3">
+                    </div>
+                    <h5>paso 3</h5>
+                    <p>Llega por Correo a todo el país y tarda entre 2 a 5 días hábiles. Tu número de seguimiento servirá parar rastrearlo.</p>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>           
+
+
+   <!-- ------- acerca de nosotros ------- -->
+
+    <section class="acerca-de-nosotros">
+
+        <div class="container">
+            <h2 class="titulo-contraste">PORQUE ES MAS RICO</h2>
+            <div class="row">
+
+                <div class="col-6">
+                    <div>
+                        <img 
+                        src="assets/Imagenes/razones1.webp"
+                        class="img-fluid" 
+                        alt="razon 1">
+                    </div>
+                    <h5>NUESTRO CAFÉ SIEMPRE TE LLEGA FRESCO</h5>
+                    <p>Todos nuestros cafés se tuestan, envasan y despachan en el día. Llevan fecha de tueste impresa. Consumí tu café dentro de los 60 días.</p>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="card-body  bgcard pb-2">
+                        <img 
+                        src="assets/Imagenes/razones2.webp"
+                        class="img-fluid" 
+                        alt="razon 2">
+                    </div>
+                    <h5>PREPARADO CON LOS MEJORES GRANOS</h5>
+                    <p>Solo usamos granos arábigos de alta calidad que midan mas de 80 puntos en cata de la Asociación de Café de Especialidad.</p>
+                </div>
+
+
+                <div class="col-6">
+                    <div class="card-body  bgcard pb-2">
+                        <img 
+                        src="assets/Imagenes/pasosparacompra3.webp"
+                        class="img-fluid" 
+                        alt="razon 3">
+                    </div>
+                    <h5>TOSTADO MAS SUAVE, SABORES MENOS AMARGOS</h5>
+                    <p>La tecnología de tostado más moderna del país (Loring Coffee Roasters), nos permite tostar el interior del grano sin quemar el exterior y producir cafés menos amargos.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+   
+
+         <!-- ------- barra de subscripcion ------- -->
+
+    <section class="subscripcion">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="pt-4">¡Suscribite a nuestro Newsletter!</h2>
+                    <p>Conoce historias, tips y descuentos especiales en Café de Especialidad</p>
+                </div>
+                <div class="col-12">
+                    <input type="email" placeholder="Ingresa tu mail" class="mb-3">
+                </div>
+
+                <div>
+                    <a href="#" class="p-2">¡Suscribirme!</a>
+                </div>
+
+            </div>
+    </section>       
+
+
 </body>
 </html>
