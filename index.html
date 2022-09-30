@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------- libreria de estilos --------->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
-    <!-- google fonts -->
+    
+    <!--------- google fonts --------->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
 
     <title>tienda de cafe</title>
 </head>
@@ -65,7 +73,7 @@
      <!-- ------- productos detacados ------- -->
 
 
-     <div class="small-container">
+     <div class="small-container" data-aos="zoom-in">
         <h2 class="titulo">Productos Destacados</h2>
         <div class="row">
             <div class="col-4">
@@ -100,7 +108,7 @@
 
 
 
-      <section class="testimonios">
+      <section class="testimonios" data-aos="fade-down">
         <div class="container">
             <div class="row">
                 <h2>Que dicen nuestros clientes</h2>
@@ -119,7 +127,7 @@
     <!-- ------- pasos para comprar ------- -->
 
     
-    <section class="pasos-para-comprar">
+    <section class="pasos-para-comprar" data-aos="fade-right">
 
         <div class="container">
             <div class="titulo">
@@ -170,7 +178,7 @@
 
    <!-- ------- acerca de nosotros ------- -->
 
-    <section class="acerca-de-nosotros">
+    <section class="acerca-de-nosotros" data-aos="fade-left">
 
         <div class="container">
             <h2 class="titulo-contraste">PORQUE ES MAS RICO</h2>
@@ -220,7 +228,7 @@
 
          <!-- ------- barra de subscripcion ------- -->
 
-    <section class="subscripcion">
+    <section class="subscripcion" data-aos="fade-up">
             <div class="row">
                 <div class="col-12">
                     <h2 class="pt-4">¡Suscribite a nuestro Newsletter!</h2>
@@ -237,6 +245,11 @@
             </div>
     </section>       
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500
+        });
+      </script>
 </body>
 </html>
